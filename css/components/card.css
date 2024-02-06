@@ -1,0 +1,48 @@
+.card-wrap {
+  background-color: white;
+  border-radius: 20px;
+  height: 500px;
+  padding: 30px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.card-wrap h2 {
+  margin: 0;
+  color: gray;
+}
+
+.card-wrap h6 {
+  margin: 0;
+  color: lightgray;
+}
+
+.cards {
+  margin-top: 20px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  border-radius: 20px;
+  background-color: #65ebd0;
+  padding: 20px 10px;
+  color: white;
+  width: 250px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  text-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card h3 {
+  font-size: 30px;
+}
+
+.pls-buy-this {
+  text-align: right;
+  padding: 10px;
+}
+
